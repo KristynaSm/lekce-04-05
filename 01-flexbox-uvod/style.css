@@ -14,10 +14,15 @@
 .ctverecek:nth-child(5n+5) { background-color: #9b59b6;}
 
 .kontejner {
+    display: flex;
     padding: 10px;
     border: 1px dashed red;
     background-color: #ffffcc;
 }
 
+
 /* ---------------------------------------------------- */
 
+.ctverecek {
+    flex-basis: 25%;
+}
